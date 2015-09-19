@@ -1,5 +1,7 @@
-Switec X25 library
+Switec X25 library (ported to Particle Photon)
 ==================
+
+NEED TO UPDATE DOCS
 
 This is an Arduino library for driving Switec X25 miniature 
 stepper motors. It was written specifically for the Switec X25.168,
