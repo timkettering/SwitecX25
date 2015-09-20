@@ -1,9 +1,7 @@
-Switec X25 library (ported to Particle Photon)
+Switec X25 library (for Particle Devices)
 ==================
 
-NEED TO UPDATE DOCS
-
-This is an Arduino library for driving Switec X25 miniature 
+This is an Particle library for driving Switec X25 miniature 
 stepper motors. It was written specifically for the Switec X25.168,
 and compatible steppers from other manufacturers including the 
 VID29 and MCR1108.
@@ -13,10 +11,8 @@ For more information including [datasheets](http://guy.carpenter.id.au/gaugette/
 Usage Notes
 -----------
 This library assumes you are driving the X25 directly from
-the Arduino IO lines, not through an intermediate controller circuit.
-A motor can be connected to any 4 Arduino digital output lines.
-The Arduino Uno has 14 I/O lines, limiting you to three motors.
-The Mega boards have more.
+the Particle IO lines, not through an intermediate controller circuit.
+A motor can be connected to any 4 Particle digital output lines.
 
 The rate at which these miniature stepper motors 
 can accelerate is dependent upon the inertia
@@ -82,10 +78,6 @@ void loop(void) {
 }
 
 ```
-
-
-
-
 
 
 
